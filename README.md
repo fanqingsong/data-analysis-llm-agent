@@ -14,6 +14,25 @@ pip install -r requirements.txt
 chainlit run src/data-analysis-llm-agent/app.py --port 8002
 ```
 
+## Useful Questions
+
+```commandline
+
+hello
+
+show top movies based on imdb scores.
+
+tell me about popular actors.
+
+show me movie trends in last 5 years.
+
+how about over 10 years.
+
+show me the amount of movies in the last 10 years. plotting it is better.
+
+```
+
+
 ## Available Tools
 
 The chatbot has access to a range of tools, including:

@@ -9,7 +9,8 @@ from openai import AsyncOpenAI
 
 logging.info(f"User message")
 
-model = "gpt-3.5-turbo-1106"
+# model = "gpt-3.5-turbo-1106"
+model = "lmstudio-community/Phi-3.1-mini-128k-instruct-GGUF/Phi-3.1-mini-128k-instruct-Q4_K_M.gguf"
 client = AsyncOpenAI(
     api_key=os.environ.get("OPENAI_API_KEY")
 )
